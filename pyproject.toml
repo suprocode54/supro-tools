@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "supro-tools"
+version = "1.0.0"
+description = "A powerful Python CLI toolkit for developers - file manager, code formatter, and system utilities"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [
+    {name = "SuproCode", email = "suprocode54@users.noreply.github.com"}
+]
+keywords = ["cli", "developer-tools", "file-manager", "code-analyzer", "utilities"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+]
+
+[project.scripts]
+supro-tools = "supro_tools.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/suprocode54/supro-tools"
+Repository = "https://github.com/suprocode54/supro-tools"
+Issues = "https://github.com/suprocode54/supro-tools/issues"
